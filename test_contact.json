@@ -1,0 +1,23 @@
+{
+  "name": "File Person",
+  "address": {
+    "street": "1 Some Street",
+    "suburb": "Sydney",
+    "state": "NSW",
+    "postcode": "2000"
+  },
+  "phone_numbers": [
+    {
+      "phone_type": "home",
+      "number": "0212345678"
+    },
+    {
+      "phone_type": "mobile",
+      "number": "0487654321"
+    }
+  ],
+  "labels": {
+    "label1": "label1 value",
+    "label2": "label2 value"
+  }
+}
