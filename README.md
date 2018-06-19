@@ -4,7 +4,7 @@ This is a sample application for
 [Google App Engine Python Standard Environment](https://cloud.google.com/appengine/docs/standard/python/)
 using
 [Google Cloud Datastore](https://cloud.google.com/datastore/docs/concepts/overview)
-and the 
+and the
 [Python NDB Client Library](https://cloud.google.com/appengine/docs/standard/python/ndb/).
 
 It demonstrates how to use Cloud Datastore entities with nested models and how
@@ -72,6 +72,14 @@ retrieve the newly created contact.
 Retrieve a contact:
 
     curl -s http://localhost:8080/contacts?contact_id=[CONTACT_ID] | python -m json.tool
+
+## Authentication
+
+This sample application doesn't include any authentication. If you deploy to
+App Engine you should enable
+[Cloud Identity-Aware Proxy](https://cloud.google.com/iap/docs/concepts-overview)
+for your application. You can do this from the
+[Google Cloud Platform console](https://console.cloud.google.com/security/iap/).
 
 ## Disclaimer
 
